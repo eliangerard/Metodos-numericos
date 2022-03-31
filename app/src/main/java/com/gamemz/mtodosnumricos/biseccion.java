@@ -102,8 +102,8 @@ public class biseccion extends AppCompatActivity {
                                 es = es;
                             }
                             iteraciones++; // Contador de iteraciones
-                            tablaIteraciones +="#"+iteraciones+": "+xm+"\n";
-                            valoresDeX+= "#"+iteraciones+": "+funcion.setVariable("x",xm).evaluate()+"\n";
+                            tablaIteraciones += "#"+iteraciones+": "+funcion.setVariable("x",xm).evaluate()+"\n";
+                            valoresDeX+="#"+iteraciones+": "+xm+"\n";
                             valoresI.add(x);
                         } while(Math.abs(x)>error); // Mientras que el valor sea mayor que el error se ejecutará
                     }
